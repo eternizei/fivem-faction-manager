@@ -48,29 +48,121 @@ A automação prepara o material para uso da equipe. A lista pode exigir revisã
 | Ausências | Centralizar registros de afastamento. |
 | Disciplina | Gerenciar advertências, PD e blacklist da comunidade. |
 
-## Eventos e organização
+## Setores e espaços de trabalho
 
-Os painéis de eventos incluem participação, saída e finalização. A organização também conta com módulos dedicados a setores, estrutura da facção, elite, avisos e sorteios.
+O bot organiza a estrutura da facção em áreas de **Elite, Recrutamento, Logs, Farm, Supervisão, Vendas e Engajamento**. Os painéis apresentam responsáveis, auxiliares e equipes, facilitando a visualização de quem responde por cada atividade.
 
-A interface utiliza botões, seletores e formulários para orientar a equipe, reduzindo a dependência de mensagens soltas e comandos digitados manualmente.
+| Área operacional | Recursos identificados |
+| --- | --- |
+| **Recrutamento** | Registro de recrutamento, consulta de resultados do dia e controle de plantões. |
+| **Farm** | Registro de farm, entregas e solicitações de reposição. |
+| **Supervisão** | Abertura de ocorrências, registro de rondas e envio de relatórios. |
+| **Engajamento** | Registro de atividades e sugestões de eventos. |
+| **Gestão de setores** | Painéis de hierarquia, estatísticas e ranking dos espaços de trabalho. |
+| **Estoque de farm** | Painel para acompanhar o estoque registrado. |
+| **Comunicação setorial** | Envio de avisos vinculados ao setor. |
 
-## Gestão operacional da facção
+Os registros podem incluir provas e passar por estados como **Em análise**, **Aprovado**, **Recusado** ou **Resolvido**, conforme o fluxo. O controle de plantão permite registrar início e encerramento da atividade.
 
-- **Uniformes:** cadastro de peças, variações e publicação por cargo.
-- **Parcerias:** registro de facções parceiras, responsáveis e descontos.
-- **Vendas RP:** registro de vendas para parceiros e players, itens e quantidades.
-- **Catálogo:** inclusão, edição e remoção de itens e valores.
-- **Controle RP:** acompanhamento de débitos e ajustes de valores com motivo.
-- **Baús e estoque RP:** entradas, saídas e limites por cargo e por baú.
-- **Conquistas:** registro de troféus da facção.
+## Testes de elite e evolução
 
-Os registros desta seção pertencem à organização do jogo e ao contexto de roleplay.
+O módulo de elite organiza o processo de avaliação dentro da comunidade:
 
-## Atendimento, registros e interface
+1. O candidato solicita um teste no painel.
+2. A equipe pode aceitar ou recusar a solicitação.
+3. O teste ganha um atendimento próprio para acompanhamento.
+4. O avaliador registra aprovação ou reprovação.
+5. O resultado fica associado ao fluxo, com acesso ao transcript.
 
-O projeto possui módulos de atendimento, logs e transcripts para apoiar consultas posteriores. Painéis com Components V2 mantêm a apresentação organizada, com separação visual entre informações e ações.
+O intervalo para uma nova tentativa pode ser configurado por unidade e quantidade de tempo. Isso permite organizar a fila de candidatos e padronizar a rotina de avaliação.
 
-O valor do projeto está na integração dessas rotinas: a equipe acompanha membros, prepara eventos e registra atividades dentro do ambiente em que já trabalha.
+A estrutura também inclui **tiers de conhecimento e preparo**. Os tiers complementam a hierarquia: apresentam níveis de evolução sem substituir os cargos administrativos.
+
+## Eventos, ações e atividades internas
+
+Os painéis de eventos oferecem participação, saída e finalização. As rotinas de ações e atividades internas também possuem controles próprios para organizar integrantes, preparar times e encerrar a atividade.
+
+As **binds automáticas** integram essa operação: a equipe prepara a lista, confere os participantes e publica o material. A saída pelo botão **Não participar** atualiza a lista e gera registro, reduzindo a necessidade de refazer a bind manualmente.
+
+## Central de avisos
+
+A comunicação oficial possui uma área de composição e conferência:
+
+- Criação de aviso com título e mensagem.
+- Inclusão de imagem.
+- Botão com link e texto personalizado.
+- Prévia antes do envio.
+- Seleção entre aviso geral e público por cargo.
+- Confirmação da publicação.
+- Resumo de mensagens enviadas e falhas.
+
+A central concentra a preparação da comunicação e a prestação de contas do envio à comunidade.
+
+## Sorteios e roleta
+
+O módulo de sorteios reúne preparação, participação elegível e apresentação de resultados.
+
+| Controle | Finalidade |
+| --- | --- |
+| **Itens** | Adicionar, editar e remover os itens do sorteio. |
+| **Distribuição** | Configurar os percentuais dos itens. |
+| **Vencedores** | Definir a quantidade de resultados e permitir ou impedir repetição de vencedores. |
+| **Canal de voz** | Selecionar a call considerada no fluxo do sorteio. |
+| **Data e hora** | Configurar o momento do evento. |
+| **Elegibilidade** | Excluir cargos ou membros específicos. |
+| **Prévia** | Conferir visualmente os itens e a distribuição configurada. |
+| **Resultado** | Apresentar a roleta e os vencedores no painel. |
+
+O recurso pertence às atividades da comunidade RP. Esta apresentação não descreve cobrança de participação ou operação de apostas.
+
+## Uniformes, parcerias e vendas RP
+
+### Uniformes
+
+O cadastro organiza uniformes masculinos e femininos por cargo, com peças, numeração e textura. A equipe pode complementar as peças antes da publicação, mantendo uma referência visual e operacional para os membros.
+
+### Parcerias
+
+As parcerias reúnem facção parceira, responsável, segmento, contato RP e desconto. A gestão permite alterar condições, consultar informações, enviar avisos ao responsável e encerrar uma parceria.
+
+### Catálogo e vendas
+
+O controle de vendas diferencia operações para **facções parceiras** e **players**, com seleção de itens e quantidades. O catálogo permite cadastrar itens, editar valores e remover opções.
+
+O painel também organiza valores por facção e vendedor, débitos e ajustes acompanhados de motivo. Esses dados se referem à economia e às atividades do roleplay.
+
+## Baús, estoque e limites de retirada
+
+O controle de baús reúne cadastro de itens, registro de entradas e saídas e acompanhamento das movimentações. A configuração inclui canais de logs e limites por baú, por cargo e por item.
+
+A equipe pode preparar um registro, ajustar quantidades, confirmar ou cancelar antes da conclusão. O membro também conta com fluxo de retirada vinculado aos limites configurados.
+
+## Recrutamento e acompanhamento da equipe
+
+Além do registro individual, o projeto possui consulta de recrutamentos aprovados e pendentes, ranking, definição do valor RP de referência e fechamento do dia.
+
+A gestão de membros inclui:
+
+- Solicitação de set com nome, ID RP, recrutador e cargo.
+- Aprovação ou recusa de solicitações.
+- Alteração de nome e ID RP.
+- Adição e remoção de cargos.
+- Promoção e solicitação de rebaixamento com motivo.
+- Transferência de ID RP, progresso e cargos entre contas Discord.
+- Registro de ausências.
+- Aplicação e remoção de advertências.
+- Administração de PD e blacklist.
+- Gestão da lista interna de usuários autorizados.
+
+## Conquistas e transição de temporada
+
+O projeto inclui registro de troféus da facção e recursos para encerramento de temporada. O fluxo de season possui prévia e confirmação, permitindo preparar a comunicação e as mudanças administrativas previstas para a transição.
+
+## Atendimento, transcripts e registros
+
+O bot combina atendimentos privados com logs e transcripts. Solicitações, testes e outras rotinas podem ser consultados posteriormente, mantendo o contexto da atividade e seus responsáveis.
+
+A interface utiliza **Components V2**, botões, seletores e formulários para separar informações e ações. O objetivo é centralizar a rotina operacional no Discord e tornar os fluxos mais fáceis de acompanhar pela liderança e pelos membros.
 
 ## Sobre esta publicação
 
